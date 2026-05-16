@@ -1,0 +1,10 @@
+pandas==2.1.4          # data loading, groupby, aggregation
+numpy==1.26.0          # numerical operations, IQR detection
+matplotlib==3.8.2      # plotting (used in notebooks)
+seaborn==0.13.0        # statistical visualisation
+scipy==1.11.4          # statistical tests (KS test for anomaly detection)
+python-dotenv==1.0.0   # reads .env file for database credentials
+sqlalchemy==2.0.23     # database connection (for config.py)
+psycopg2-binary==2.9.9 # PostgreSQL driver
+pytest==7.4.3          # test runner
+jupyterlab==4.0.7      # interactive notebooks

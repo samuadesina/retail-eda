@@ -1,0 +1,30 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+
+# Virtual environment
+retail-venv/
+venv/
+.venv/
+env/
+
+
+# Data output (no need to push generated files)
+data/processed/processed-data.csv
+data/raw/raw-data.csv
+data/logs/log.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# pytest
+.pytest_cache/data/
